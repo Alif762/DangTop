@@ -1,0 +1,13 @@
+name: DangTop
+version: 1.0.0
+main: my.dangtop.DangTop
+api-version: "1.20"
+softdepend: [Vault, Essentials]
+commands:
+  dangtop:
+    description: Show the richest players
+    usage: /dangtop
+    aliases: [richest]
+permissions:
+  dangtop.use:
+    default: true
